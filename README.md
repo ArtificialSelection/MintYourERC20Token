@@ -1,66 +1,17 @@
-## Foundry
+# Mint your ERC20 tokens
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
+A user can mint their ERC20 tokens hassle free. All they need to provide is the **name** of your token, **symbol** and **number of tokens** to be minted.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+All the initial tokens generated will be allocated to the minter.
 
-## Documentation
+To mint the token a minimum of 5 USD is the fee that a minter needs to pay.
 
-https://book.getfoundry.sh/
 
-## Usage
+# Contract addresses
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+|Below are the contract addresses provided that are deployed on sepolia network
+---
+1. contract MyToken : 0xA81fDAAFBb909F1DD6ffbdc66817185f479540bF
+2. contract MintYourToken : 0x6842C667bc714af3B13cDa6111E850C509Bd0C71
+---# MintYourERC20Token
